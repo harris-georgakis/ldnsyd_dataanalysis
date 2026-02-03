@@ -87,7 +87,7 @@ README.md
 1. Clone the repository  
 2. Load datasets from `/data`  
 3. Execute SQL scripts from `/sql`  
-4. Open Tableau dashboard from `/dashboards`  
+4. Open Tableau dashboard from `/visuals`  
 
 ---
 
