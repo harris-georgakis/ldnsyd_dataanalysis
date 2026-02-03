@@ -1,0 +1,17 @@
+SELECT
+City,
+Years_of_Experience as "Year Level",
+
+--Lowest Possible Income in Sydney, Australia
+Take_Home_Low_AUD_Monthly as "Monthly Low After Tax $",
+--Lowest Possible Income in London, UK
+Take_Home_Low_GBP_Monthly as "Monthly Low After Tax £",
+
+--Highest Possible Income in Sydney, Australia
+Take_Home_High_AUD_Monthly as "Monthly High After Tax $",
+--Highest Possible Income in London, UK
+Take_Home_High_GBP_Monthly as "Monthly High After Tax £",
+
+FROM data_analyst_income
+ORDER BY City asc;
+

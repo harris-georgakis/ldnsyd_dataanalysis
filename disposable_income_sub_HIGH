@@ -1,0 +1,27 @@
+SELECT
+m.City,
+m.Primary_Suburb_Borough as "Area",
+d.Years_of_Experience as "Year Level",
+--Money after Rent in Sydney, Australia
+d.Take_Home_High_AUD_Monthly as "Monthly High $",
+m."1_Bedroom_Median_Monthly_Rent_AUD" as "1 Bed Monthly $",
+ROUND(d.Take_Home_High_AUD_Monthly-"1_Bedroom_Median_Monthly_Rent_AUD") as "After Rent $",
+--Money after Rent in London, UK
+d.Take_Home_High_GBP_Monthly as "Monthly £",
+m."1_Bedroom_Median_Weekly_Rent_GBP" as "1 Bed Monthly £",
+ROUND(d.Take_Home_High_GBP_Monthly-"1_Bedroom_Median_Monthly_Rent_GBP") as "After Rent £",
+
+FROM monthly_rent m
+INNER JOIN data_analyst_income d
+ON m.City = d.City
+
+WHERE m.Primary_Suburb_Borough IN (
+   'Sydney (CBD), Haymarket',
+   'North Ryde, Macquarie Park',
+   'Surry Hills, Darlinghurst',
+   'North Sydney, Lavender Bay',
+   'Parramatta, Harris Park'
+) OR m.Primary_Suburb_Borough IN (
+'Hackney', 'Camden', 'Tower Hamlets', 'Islington', 'Southwark')
+
+ORDER BY Years_of_Experience asc;
