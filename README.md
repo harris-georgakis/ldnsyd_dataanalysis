@@ -87,7 +87,8 @@ README.md
 1. Clone the repository  
 2. Load datasets from `/data`  
 3. Execute SQL scripts from `/sql`  
-4. Open Tableau dashboard from `/visuals`  
+4. Get a better look into `/visuals`  
+5. Try on your own through the Tableau dashboards from my public profile vizzes (https://public.tableau.com/app/profile/harris.georgakis/vizzes)
 
 ---
 
