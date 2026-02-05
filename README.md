@@ -132,6 +132,8 @@ Choosing a city based on salary alone is misleading. This project models real pu
 - **Problem Solving**: Real-world decision-making under uncertainty
 ---
 
+⭐ **Found this helpful?** Star the repo and share it with others making career decisions!
+
 ## 📬 Contact  
 **Open to opportunities in:** Data Analytics, Database Development, Remote positions (EU-based)
 
