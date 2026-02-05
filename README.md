@@ -8,7 +8,7 @@ This project analyzes the affordability and quality of life for **Data Analysts*
 
 Rather than comparing gross salaries, I calculated **real disposable income** after taxes, rent, and essential living costs to answer a personal question:
 
-> **Where should I start my Data Analytics career?**
+> **Where does a junior Data Analyst achieve higher disposable income after rent and essential living costs: London or Sydney?**
 
 **Key Question:** Which city lets Data Analysts save more money while maintaining quality of life?
 
@@ -110,6 +110,11 @@ This analysis was created as my **Data Analytics Accelerator Capstone Project**.
 I spent the last months of 2025 in Sydney and fell in love with it. But I'd always dreamed of living in London. Facing a career pivot from cultural heritage (archaeology/conservation) to data analytics, I needed to make an informed decision.
 
 Instead of guessing, I built a complete data pipeline to analyze where I could build a better career foundation.
+
+## Why This Project
+
+Choosing a city based on salary alone is misleading. This project models real purchasing power by combining income, rent, and cost-of-living data to support smarter career decisions.
+
 
 ### What I Learned
 
